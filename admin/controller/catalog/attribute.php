@@ -10,6 +10,7 @@ class ControllerCatalogAttribute extends Controller {
 		$this->load->model('catalog/attribute');
 		
     	$this->getList();
+	$this->putList();
   	}
               
   	public function insert() {
